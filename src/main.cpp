@@ -32,7 +32,7 @@ void loop() {
   delay(500);
   gpio_set_level(backlight_led, LOW);
   delay(500);
-  Serial.println("Hello");
+  Serial.println("Loop");
 
   read_register(E_TM040040_REGx0A_Z_IDLE);
 }
